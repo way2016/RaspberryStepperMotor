@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/StepperMotor/src/gpio.h
+stdint.h
+-
+
+/home/pi/StepperMotor/src/main.c
+stdio.h
+-
+fcntl.h
+-
+sys/mman.h
+-
+unistd.h
+-
+gpio.h
+/home/pi/StepperMotor/src/gpio.h
+

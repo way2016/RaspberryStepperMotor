@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/LittleCrane.dir/main.o CMakeFiles/LittleCrane.dir/gpio.o  -o LittleCrane -rdynamic 
